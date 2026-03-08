@@ -3,7 +3,7 @@ import ollama
 class RaceEngineer:
 
     def __init__(self):
-        self.model = "llama3"
+        self.model = "phi3"
 
         self.system_prompt = """
 You are a professional race engineer speaking over race radio.

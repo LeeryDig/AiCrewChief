@@ -1,0 +1,27 @@
+{
+  "handling_issue": "understeer",
+  "phases": {
+    "entry": {
+      "fixes": [
+        "Soften front anti-roll bar by 1 click",
+        "Increase front camber slightly",
+        "Move brake bias rearward by 1 percent",
+        "Increase front toe-out slightly"
+      ]
+    },
+    "mid": {
+      "fixes": [
+        "Increase rear anti-roll bar by 1 click",
+        "Lower front tire pressure by 0.2 PSI",
+        "Increase front camber slightly"
+      ]
+    },
+    "exit": {
+      "fixes": [
+        "Reduce rear wing by 1 click",
+        "Increase differential preload slightly",
+        "Increase rear anti-roll bar by 1 click"
+      ]
+    }
+  }
+}

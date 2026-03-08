@@ -1,0 +1,11 @@
+{
+  "handling_issue": "traction_loss",
+  "phase": "exit",
+  "description": "Rear wheels spin excessively during acceleration",
+  "fixes": [
+    "Reduce differential preload",
+    "Soften rear anti-roll bar",
+    "Lower rear tire pressure slightly",
+    "Increase rear wing"
+  ]
+}

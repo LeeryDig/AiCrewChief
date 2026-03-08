@@ -1,0 +1,10 @@
+{
+  "handling_issue": "braking_instability",
+  "description": "Car becomes unstable or rotates during braking",
+  "fixes": [
+    "Move brake bias forward",
+    "Increase rear wing slightly",
+    "Soften rear suspension slightly",
+    "Increase rear toe-in"
+  ]
+}

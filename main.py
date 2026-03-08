@@ -1,25 +1,40 @@
+import keyboard
+from voice.recorder import record_audio
+from voice.stt import transcribe
 from ai.engineer import RaceEngineer
 from voice.tts import TTS
 
+from engine.problem_classifier import classify_problem
+from engine.knowledge_loader import load_knowledge
+from engine.fix_selector import choose_fix_with_ai
 
 def main():
 
-    engineer = RaceEngineer()
     tts = TTS()
 
-    setup = """
-rear anti roll bar: 6
-rear wing: 8
-rear tire pressure: 27.5
-"""
+    print("Press V to talk")
 
     while True:
 
-        problem = input("\nDriver: ")
+        keyboard.wait("v")
 
-        response = engineer.analyze_problem(problem, setup)
+        audio = record_audio()
+        text = transcribe(audio)
 
-        tts.speak(response)
+        print("Driver:", text)
+
+        problem = classify_problem(text)
+        
+        issue = problem["issue"]
+        phase = problem["phase"]
+        
+        knowledge = load_knowledge(issue)
+        
+        fixes = knowledge["phases"][phase]["fixes"]
+        
+        fix = choose_fix_with_ai(text, fixes)
+        
+        tts.speak(fix)
 
 
 if __name__ == "__main__":

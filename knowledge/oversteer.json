@@ -1,0 +1,28 @@
+{
+  "handling_issue": "oversteer",
+  "phases": {
+    "entry": {
+      "fixes": [
+        "Increase rear wing by 1 click",
+        "Increase rear rebound damping by 2 clicks",
+        "Increase rear toe-in slightly",
+        "Move brake bias forward by 1 percent"
+      ]
+    },
+    "mid": {
+      "fixes": [
+        "Reduce rear anti-roll bar by 1 click",
+        "Reduce rear rebound damping by 2 clicks",
+        "Increase rear wing by 1 click"
+      ]
+    },
+    "exit": {
+      "fixes": [
+        "Reduce rear anti-roll bar by 1 click",
+        "Reduce differential preload slightly",
+        "Lower rear tire pressure by 0.2 PSI",
+        "Increase rear wing by 1 click"
+      ]
+    }
+  }
+}
