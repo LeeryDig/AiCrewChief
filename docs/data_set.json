@@ -1,0 +1,202 @@
+[
+    {
+        "instruction": "Suggest the correct car setup adjustment based on the driver feedback.",
+        "input": {
+            "driver_feedback": "Rear gets loose when I accelerate",
+            "corner_phase": "exit",
+            "speed": "medium",
+            "car_state": "throttle"
+        },
+        "output": "Soften rear anti-roll bar to increase rear grip on corner exit."
+    },
+    {
+        "instruction": "Suggest the correct car setup adjustment based on the driver feedback.",
+        "input": {
+            "driver_feedback": "The rear steps out when I get on the throttle",
+            "corner_phase": "exit",
+            "speed": "medium",
+            "car_state": "throttle"
+        },
+        "output": "Soften rear anti-roll bar to increase rear grip on corner exit."
+    },
+    {
+        "instruction": "Suggest the correct car setup adjustment based on the driver feedback.",
+        "input": {
+            "driver_feedback": "I'm losing the rear when accelerating out of the corner",
+            "corner_phase": "exit",
+            "speed": "medium",
+            "car_state": "throttle"
+        },
+        "output": "Soften rear anti-roll bar to increase rear grip on corner exit."
+    },
+    {
+        "instruction": "Suggest the correct car setup adjustment based on the driver feedback.",
+        "input": {
+            "driver_feedback": "Front pushes wide in the middle of the corner",
+            "corner_phase": "mid",
+            "speed": "medium",
+            "car_state": "neutral"
+        },
+        "output": "Increase rake by raising rear ride height to improve rotation."
+    },
+    {
+        "instruction": "Suggest the correct car setup adjustment based on the driver feedback.",
+        "input": {
+            "driver_feedback": "Car refuses to rotate at the apex",
+            "corner_phase": "mid",
+            "speed": "medium",
+            "car_state": "neutral"
+        },
+        "output": "Increase rake by raising rear ride height to improve rotation."
+    },
+    {
+        "instruction": "Suggest the correct car setup adjustment based on the driver feedback.",
+        "input": {
+            "driver_feedback": "The car understeers mid corner",
+            "corner_phase": "mid",
+            "speed": "medium",
+            "car_state": "neutral"
+        },
+        "output": "Increase rake by raising rear ride height to improve rotation."
+    },
+    {
+        "instruction": "Suggest the correct car setup adjustment based on the driver feedback.",
+        "input": {
+            "driver_feedback": "Front wheels lock under braking",
+            "corner_phase": "entry",
+            "speed": "high",
+            "car_state": "braking"
+        },
+        "output": "Move brake bias slightly rearward."
+    },
+    {
+        "instruction": "Suggest the correct car setup adjustment based on the driver feedback.",
+        "input": {
+            "driver_feedback": "I keep locking the front tires in the braking zone",
+            "corner_phase": "entry",
+            "speed": "high",
+            "car_state": "braking"
+        },
+        "output": "Move brake bias slightly rearward."
+    },
+    {
+        "instruction": "Suggest the correct car setup adjustment based on the driver feedback.",
+        "input": {
+            "driver_feedback": "Rear feels unstable when braking hard",
+            "corner_phase": "entry",
+            "speed": "high",
+            "car_state": "braking"
+        },
+        "output": "Move brake bias forward to stabilize braking."
+    },
+    {
+        "instruction": "Suggest the correct car setup adjustment based on the driver feedback.",
+        "input": {
+            "driver_feedback": "The car feels unstable in fast corners",
+            "corner_phase": "mid",
+            "speed": "high",
+            "car_state": "neutral"
+        },
+        "output": "Increase rear wing to improve high speed stability."
+    },
+    {
+        "instruction": "Suggest the correct car setup adjustment based on the driver feedback.",
+        "input": {
+            "driver_feedback": "Rear feels light in high speed turns",
+            "corner_phase": "mid",
+            "speed": "high",
+            "car_state": "neutral"
+        },
+        "output": "Increase rear wing to improve high speed stability."
+    },
+    {
+        "instruction": "Suggest the correct car setup adjustment based on the driver feedback.",
+        "input": {
+            "driver_feedback": "Car is stable but too slow on straights",
+            "corner_phase": "none",
+            "speed": "high",
+            "car_state": "full_throttle"
+        },
+        "output": "Reduce rear wing to decrease aerodynamic drag."
+    },
+    {
+        "instruction": "Suggest the correct car setup adjustment based on the driver feedback.",
+        "input": {
+            "driver_feedback": "I'm losing too much speed on the straight",
+            "corner_phase": "none",
+            "speed": "high",
+            "car_state": "full_throttle"
+        },
+        "output": "Reduce rear wing to decrease aerodynamic drag."
+    },
+    {
+        "instruction": "Suggest the correct car setup adjustment based on the driver feedback.",
+        "input": {
+            "driver_feedback": "Front grip feels weak in corners",
+            "corner_phase": "mid",
+            "speed": "medium",
+            "car_state": "neutral"
+        },
+        "output": "Increase negative camber on the front wheels."
+    },
+    {
+        "instruction": "Suggest the correct car setup adjustment based on the driver feedback.",
+        "input": {
+            "driver_feedback": "Front tires are sliding during cornering",
+            "corner_phase": "mid",
+            "speed": "medium",
+            "car_state": "neutral"
+        },
+        "output": "Increase negative camber on the front wheels."
+    },
+    {
+        "instruction": "Suggest the correct car setup adjustment based on the driver feedback.",
+        "input": {
+            "driver_feedback": "Turn-in feels lazy",
+            "corner_phase": "entry",
+            "speed": "medium",
+            "car_state": "neutral"
+        },
+        "output": "Increase front toe-out to improve turn-in response."
+    },
+    {
+        "instruction": "Suggest the correct car setup adjustment based on the driver feedback.",
+        "input": {
+            "driver_feedback": "Car reacts slowly when I turn the wheel",
+            "corner_phase": "entry",
+            "speed": "medium",
+            "car_state": "neutral"
+        },
+        "output": "Increase front toe-out to improve steering response."
+    },
+    {
+        "instruction": "Suggest the correct car setup adjustment based on the driver feedback.",
+        "input": {
+            "driver_feedback": "The car feels weird",
+            "corner_phase": "unknown",
+            "speed": "unknown",
+            "car_state": "unknown"
+        },
+        "output": "Insufficient information. Ask the driver for more details about when the issue occurs."
+    },
+    {
+        "instruction": "Suggest the correct car setup adjustment based on the driver feedback.",
+        "input": {
+            "driver_feedback": "The car feels unstable",
+            "corner_phase": "unknown",
+            "speed": "unknown",
+            "car_state": "unknown"
+        },
+        "output": "Insufficient information. Ask whether the instability occurs on entry, mid corner, or exit."
+    },
+    {
+        "instruction": "Suggest the correct car setup adjustment based on the driver feedback.",
+        "input": {
+            "driver_feedback": "Grip feels bad",
+            "corner_phase": "unknown",
+            "speed": "unknown",
+            "car_state": "unknown"
+        },
+        "output": "Insufficient information. Ask whether the issue affects the front or rear of the car."
+    }
+]
