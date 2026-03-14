@@ -118,11 +118,7 @@ ffmpeg -version
 
 # Executando o projeto
 
-Primeiro iniciar o Ollama:
-
-ollama run phi3
-
-Depois rodar o projeto:
+Rodar o projeto (o Ollama é iniciado automaticamente se necessário):
 
 python main.py
 

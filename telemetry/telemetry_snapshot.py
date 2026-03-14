@@ -4,6 +4,9 @@ from dataclasses import dataclass
 @dataclass
 class TelemetrySnapshot:
 
+    session_state: int
+    session_type: str
+
     lap: int
     lap_time: float
     session_time: float
